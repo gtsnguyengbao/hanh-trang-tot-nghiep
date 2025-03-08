@@ -12,6 +12,29 @@ body {
     background-attachment: fixed;
 }
 
+
+.home-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
 .container {
     max-width: 1200px;
     margin: 20px auto;
