@@ -2,9 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('loginForm');
     const errorMessage = document.getElementById('errorMessage');
 
-    // Danh sách tài khoản mẫu
     const validUsers = {
-        'nguyengbao': '@Nguyenbao_2106',
+        'nguyengiabao': '21062007',
         'mainhatbaoan': '17102006',
     };
 
