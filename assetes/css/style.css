@@ -30,12 +30,23 @@ img {
 }
 
 .image-logo {
-  width: 135px;
-  height: 135px;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
   display: block;
   position: absolute;
-  top: 0px;
-  right: 10px;
+  top: 50px;
+  right: 65px;
+}
+.footer-logo{
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 180px;
+
 }
 
 .banner-image {
