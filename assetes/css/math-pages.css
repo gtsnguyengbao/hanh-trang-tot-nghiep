@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/math/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D4E9D2;
+    border-radius: 10px;
+    position: relative;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.title-pages {
+    font-size: 40px;
+    position: relative;
+    top: 5vh;
+    z-index: 1;
+    text-align: center;
+    color: darkcyan;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+nav {
+    margin: 20px 20px;
+    z-index: 2;
+    position: relative;
+    top: 3vh;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    font-family: Anton;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin: 50px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FFA500;
+}
+
+h2 {
+    color: #2980b9;
+    text-align: center;
+    margin: 30px 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 36px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    .body h1 {
+        font-size: 28px;
+    }
+
+    .list-item {
+        font-size: 18px;
+    }
+
+    .home-btn {
+        font-size: 25px;
+        padding: 10px;
+    }
+}

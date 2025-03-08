@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.home-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D4E9D2;
+    border-radius: 10px;
+    position: relative;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Anton;
+    font-size: 50px;
+    color: darkcyan;
+    margin-top: 20px;
+    position: relative;
+    top: 1vh;
+}
+
+nav {
+    position: relative;
+    top: 3vh;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    font-family: Anton;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin: 50px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FFA500;
+}
+
+.body {
+    margin: 20px 20px;
+}
+
+h1 {
+    color: #2980b9;
+    text-align: center;
+    margin: 30px 20px;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p,
+span {
+    font-size: 25px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 25px;
+    background-color: #dfe6e9;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.list-item:hover {
+    background-color: #b2bec3;
+}
+
+.icon {
+    color: #27ae60;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 36px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    .body h1 {
+        font-size: 28px;
+    }
+
+    .list-item {
+        font-size: 18px;
+    }
+
+    .home-btn {
+        font-size: 25px;
+        padding: 10px;
+    }
+}
