@@ -112,7 +112,7 @@ p {
     line-height: 1.8;
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
 
     .container {
         width: 90%;
@@ -138,4 +138,4 @@ p {
         font-size: 2.5rem;
         padding: 10px;
     }
-}
+} */

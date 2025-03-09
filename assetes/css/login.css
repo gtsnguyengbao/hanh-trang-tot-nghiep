@@ -98,7 +98,7 @@ button:hover {
     opacity: 1;
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .container {
         width: 90%;
         padding: 20px;
@@ -112,4 +112,4 @@ button:hover {
         font-size: 0.9rem;
         padding: 12px;
     }
-}
+} */

@@ -179,7 +179,7 @@ p a:hover {
 }
 
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .container {
     width: 90%;
     padding: 20px;
@@ -223,4 +223,4 @@ p a:hover {
   .footer-body p {
     font-size: 1.5rem;
   }
-}
+} */
