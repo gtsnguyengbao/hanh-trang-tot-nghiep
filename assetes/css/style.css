@@ -178,65 +178,15 @@ p a:hover {
   color: #FFA500;
 }
 
-/* ✅ Điều chỉnh cho thiết bị nhỏ (tablet) */
-@media (max-width: 768px) {
+
+@media (max-width: 400px) {
   .container {
-    padding: 10px;
+    width: 90%;
+    padding: 20px;
   }
 
   .title {
-    font-size: 32px;
-  }
-
-  .image-logo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .banner-image {
-    width: 90vw;
-    height: 50vh;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav ul li {
-    margin: 5px 0;
-  }
-
-  nav ul li a {
-    font-size: 20px;
-  }
-
-  .content-title h2 {
-    font-size: 24px;
-  }
-
-  .content-body p,
-  .content-footer p {
-    font-size: 18px;
-  }
-
-  .footer-title h2 {
-    font-size: 20px;
-  }
-
-  .footer-body p {
-    font-size: 16px;
-  }
-}
-
-/* ✅ Điều chỉnh cho điện thoại nhỏ (dưới 480px) */
-@media (max-width: 480px) {
-  .container {
-    padding: 10px;
-  }
-
-  .title {
-    font-size: 24px;
+    font-size: 2.5rem;
   }
 
   .image-logo {
@@ -250,7 +200,7 @@ p a:hover {
   }
 
   nav ul li a {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
 
   .content {
@@ -258,19 +208,19 @@ p a:hover {
   }
 
   .content-title h2 {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .content-body p,
   .content-footer p {
-    font-size: 16px;
+    font-size: 1.5rem;
   }
 
   .footer-title h2 {
-    font-size: 18px;
+    font-size: 2rem;  
   }
 
   .footer-body p {
-    font-size: 14px;
+    font-size: 1.5rem;
   }
 }
