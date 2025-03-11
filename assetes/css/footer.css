@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-body p,
+.content-footer p {
+    font-size: 23px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content-footer {
+    font-weight: bold;
+    font-size: 20px;
+    color: #005a5a;
+    margin-top: 20px;
+}
+
+.footer {
+    margin-bottom: -100px;
+    width: 100%;
+    background-image: url(../image/home/anh-nen-footer.jpg);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer-title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-body p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+.footer-body p:last-child {
+    margin-bottom: 0;
+}
+
+p a {
+    color: white;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #FFA500;
+}

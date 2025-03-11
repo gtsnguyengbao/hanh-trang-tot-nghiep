@@ -142,7 +142,7 @@ nav ul li a:hover {
 .footer {
   margin-bottom: -100px;
   width: 100%;
-  background: #008080;
+  background-image: url(../image/home/anh-nen-footer.jpg);
   color: white;
   text-align: center;
   padding: 20px 0;
